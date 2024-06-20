@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { HeadlessButton } from '@locoworks/reusejs-react-button';
+// import { HeadlessButton } from '@locoworks/reusejs-react-button';
 
 interface Package {
     name: string;
@@ -45,9 +45,9 @@ const ViewPackages: React.FC = () => {
             {favPackages.length === 0 ? (
                 <div className="border rounded p-4 text-center">
                     <p className="mb-4">You don't have any favs yet. Please add.</p>
-                    <HeadlessButton className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    {/* <HeadlessButton className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                         Add Fav
-                    </HeadlessButton>
+                    </HeadlessButton> */}
                 </div>
             ) : (
                 <div>
