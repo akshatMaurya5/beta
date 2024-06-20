@@ -8,7 +8,7 @@ interface Package {
     reason?: string;
 }
 
-const AddPackage: React.FC = () => {
+function AddPackage() {
     const [query, setQuery] = useState('');
     const [results, setResults] = useState<Package[]>([]);
     const [selectedPackage, setSelectedPackage] = useState('');
